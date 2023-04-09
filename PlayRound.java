@@ -22,11 +22,13 @@ public class PlayRound {
                 passOrFail = "WON";
                 String gameOver2 = "You " + passOrFail + "!" + " GAME OVER...";
                 System.out.println(gameOver2 + " Round: " + rounds);
+                
             } else if (rounds < 5 && userGuess == computerGuess){
                 
                 passOrFail = "WON";
                 String message = "You " + passOrFail + "!";
                 System.out.println(message + " Round: " + rounds);
+                return;
             } else {
                 
                 passOrFail = "LOST";
