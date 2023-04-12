@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class UserGuess{
     public static int enterGuess(){ 
       Scanner scanner = new Scanner(System.in);
+      
         System.out.println("Enter your guess: ");
+        
          
         String guess = scanner.nextLine();
         

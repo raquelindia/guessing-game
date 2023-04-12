@@ -1,6 +1,14 @@
 public class PlayRound {
-    
+    static String startGameMessage = "~GUESSING GAME~";
+    static String rulesTitle = "RULES:";
+    static String rule1 = "1. Enter a number from 0 to 10.";
+    static String rule2 = "2. No letters or symbols!!";
+
     public static void main(String[] args){
+        System.out.println(startGameMessage);
+        System.out.println(rulesTitle);
+        System.out.println(rule1);
+        System.out.println(rule2);
         ComputerGuess computer = new ComputerGuess();
         int computerGuess = ComputerGuess.computerSelection();
         int gamesWon = 0;
